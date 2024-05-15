@@ -24,6 +24,7 @@ div {
     margin: auto;
     width: 30vw;
     margin-bottom: 2vh;
+    background-color: aqua;
 }
 
 .completato {
