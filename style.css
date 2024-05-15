@@ -1,0 +1,25 @@
+
+body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 5vh;
+    margin: 2vh;
+}
+
+h2{
+    font-size: 2vh;
+    margin: 2vh
+}
+
+main {
+    text-align: center;
+}
+
+div {
+    text-align: center;
+    border: solid 1px;
+    margin: auto;
+    width: 30vw;
+}
