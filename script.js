@@ -10,8 +10,11 @@ addNewTasks.addEventListener("submit", function (event) {
   const paragrafiLista = document.createElement("div");
   paragrafiLista.classList.add("paragrafiLista");
 
-  const elementoLista = document.createElement("h2");
+  const elementoLista = document.createElement("p");
   elementoLista.innerText = newTaskInputField.value;
+  elementoLista.addEventListener("click", function () {
+    elementoLista.classList.toggle("completato");
+  });
 
   const taskButton = document.createElement("button");
   taskButton.innerText = "cancella";

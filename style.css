@@ -1,6 +1,7 @@
 
 body {
     text-align: center;
+    background-color: aquamarine;
 }
 
 h1 {
@@ -8,7 +9,7 @@ h1 {
     margin: 2vh;
 }
 
-h2{
+p{
     font-size: 2vh;
     margin: 2vh
 }
@@ -22,4 +23,22 @@ div {
     border: solid 1px;
     margin: auto;
     width: 30vw;
+    margin-bottom: 2vh;
 }
+
+.completato {
+    text-decoration: line-through;
+}
+
+form {
+    margin: 2vh;
+}
+
+div p , div button {
+    display: inline;
+}
+
+div button {
+    float: right;
+}
+
